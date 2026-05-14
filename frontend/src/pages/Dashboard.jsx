@@ -8,6 +8,8 @@ function Dashboard() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
+
+    
     fetchSubmissions();
   }, []);
 
